@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2047a8faa94e4c54f93ff58ea82983c3, type: 3}
+  m_Name: GameAssetsSettings
+  m_EditorClassIdentifier: 
+  m_version:
+    Major: 0
+    Minor: 0
+    Build: 0
+  m_outPath: E:\ftp
+  m_downMapPath: https://client-1256951432.cos.ap-chengdu.myqcloud.com/updateBin/
+  m_downPath: https://client-1256951432.cos.ap-chengdu.myqcloud.com/updateBin/
+  m_gameAssets:
+  - m_bundles:
+    - m_pathName: Assets/Data/table
+      m_bundleType: 0
+      m_isCopyStreamingAssets: 1
+      m_isForceUpdate: 1
+      m_isResident: 0
+      m_bundleDetails: []
+      m_nomarlDetails:
+      - Assets/Data/table/Access.bin
+      - Assets/Data/table/ActivityActiveDropBase.bin
+      - Assets/Data/table/ActivityActiveDropTypeShow.bin
+      - Assets/Data/table/ActivityAllianceMobilizationRank.bin
+      - Assets/Data/table/ActivityAllianceMobilizationStage.bin
+      - Assets/Data/table/ActivityAllianceMobilizationTask.bin
+      - Assets/Data/table/ActivityAllianceMobilizationTaskRefresh.bin
+    - m_pathName: Assets/Data/Model
+      m_bundleType: 1
+      m_isCopyStreamingAssets: 1
+      m_isForceUpdate: 1
+      m_isResident: 0
+      m_bundleDetails:
+      - assets/data/model/about.ab
+      - assets/data/model/canvas.ab
+      - assets/data/model/new animator controller.ab
+      m_nomarlDetails: []
+    - m_pathName: Assets/Data/models
+      m_bundleType: 2
+      m_isCopyStreamingAssets: 0
+      m_isForceUpdate: 1
+      m_isResident: 1
+      m_bundleDetails:
+      - assets/data/models.ab
+      m_nomarlDetails: []
+  m_isAppendHashToAssetBundleName: 1
+  m_ignoreExt: 
+  m_simulationMode: 1
